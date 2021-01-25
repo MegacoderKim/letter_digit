@@ -1,7 +1,7 @@
 import itertools
 
 
-def possible_lower_and_upper_case_permutations(input_string):
+def possible_lower_and_upper_case_variations(input_string):
     # uses the cartesian product https://docs.python.org/3/library/itertools.html#itertools.product
     map_object = map(
         "".join,

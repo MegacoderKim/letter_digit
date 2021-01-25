@@ -13,6 +13,7 @@ ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
 INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.messages",
+    "letters"
 ]
 
 MIDDLEWARE = [

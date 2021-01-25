@@ -11,3 +11,7 @@ Run `docker-compose up -d` ro run the project and run `docker-compose logs -f` i
 ### Testing
 
 Run `docker-compose run --rm wordweb py.test`
+
+## Endpoints Documentation
+
+To test the api, make a post request to `/wordvariations` with the body as `{"word":"a2B"}`
